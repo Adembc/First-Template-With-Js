@@ -851,6 +851,18 @@ footer .social-media li a i {
   cursor: pointer;
   transition: visibility 0.4s;
   display: grid;
+  animation-name: upDown;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+@keyframes upDown {
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 .scroll i {
   font-size: 20px;
