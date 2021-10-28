@@ -236,7 +236,7 @@ a {
   width: 65px;
   border: none;
   border-radius: 10px;
-  background-color: #009688;
+  background-color: var(--main-color);
   color: #fff;
   padding: 7px;
   font-weight: bold;
